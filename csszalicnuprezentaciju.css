@@ -60,4 +60,18 @@ div, ul, p {
     text-indent: 35px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+.carousel-item {
+    text-align: center;
+}
+#poslednji {
+    text-align: center;
+}
+#poslednji p {
+    font-size: 25px;
+}
+
+
 

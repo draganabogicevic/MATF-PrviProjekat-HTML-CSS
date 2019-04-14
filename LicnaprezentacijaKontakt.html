@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
+    <link rel="stylesheet" type="text/css" href="csszalicnuprezentaciju.css">
 </head>
 <body>
     <nav class="navbar bg-info navbar-dark navbar-expand-md fixed-top">
@@ -23,10 +23,10 @@
         <div class="collapse navbar-collapse" id="collid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#naslov">O meni</a>
+                    <a class="nav-link" href="index.html">O meni</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="LicnaprezentacijaKontakt.html">Kontakt</a>
+                    <a class="nav-link" href="#">Kontakt</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="LicnaprezentacijaProjekti.html">Projekti</a>
@@ -36,6 +36,62 @@
     </nav>
 <nav aria-label="breadcrumb">
     <ul class="breadcrumb mt-5 pt-4">
-        <li class="breadcrumb-item active text-info" aria-current="page">O meni</li>
+        <li class="breadcrumb-item text-info">
+            <a href="index.html">O meni</a>
+        </li>
+        <li class="breadcrumb-item active text-info" aria-current="page">
+                Kontakt
+        </li>
     </ul>
 </nav>
+
+<div class="container-fluid">
+    <header class="text-center mt-5 pt-3">
+        <h1 id="prvinaslov" class="display-1 text-info">Kontakt podaci</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <img class="img-thumbnail" src="telefon4.png">
+            </div>
+            <div class="col-md-3 mt-5 pt-5">
+                <p><img src="ikonicamesto.png"> Janka Baka 21, 22300 Stara Pazova</p>
+                <p><img src="ikonicamail.png"> dragana.bogicevic83@gmail.com</p>
+                <p><img src="ikonicamb.png"> 022 / 317-640</p>
+                <p><img src="ikonicamob.png"> 060 / 7461-670</p>
+            </div>
+            <div class="col-md-5 mt-5">
+                <form>
+                    <div class="form-goup">
+                        <label for="Ime">Ime i prezime: </label>
+                        <input class="form-control" type="text" name="ime" id="ime" placeholder="Ovde unesite svoje ime i prezime...">
+                    </div>
+                    <div class="form-goup">
+                        <label for="adresa">Adresa: </label>
+                        <input class="form-control" type="text" name="adresa" id="adresa" placeholder="Ovde unesite svoju adresu...">
+                    </div>
+                    <div class="form-goup">
+                        <label for="email">Email: </label>
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Ovde unesite svoju Email adresu...">
+                    </div>
+                    <div class="form-goup">
+                        <label for="vastekst">Vase pitanje: </label>
+                        <textarea class="form-control"  name="vastekst" id="vastekst" rows="7" placeholder="Ovde unesite svoju Email adresu..."></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-5">
+         <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <span>Adresa: Janka Baka 21, 22300 Stara Pazova</span><br>
+                <span>Broj telefona: 060/7461-670; 022/317-640</span><br>
+                <span>Mejl adresa: dragana.bogicevic83@gmail.com</span><br>
+                <span>Linkedin <a href="https://www.linkedin.com/in/dragana-bogicevic-354104110/ "><img src="linkedin.png"></a></span>
+            </div>
+        </div>
+        </footer>
+</div>
+</body>
+</html>
