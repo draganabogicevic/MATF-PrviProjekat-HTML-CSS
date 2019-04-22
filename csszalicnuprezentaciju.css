@@ -49,7 +49,7 @@ span {
 }
 
 ul {
-    list-style-image: url(bulet.png);
+    list-style-image: url(turn-right.png);
 }
 
 div, ul, p {
@@ -71,6 +71,10 @@ a:hover {
 }
 #poslednji p {
     font-size: 25px;
+}
+.ikonice {
+    height: 25px;
+    width: 25px;
 }
 
 
